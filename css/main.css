@@ -1,0 +1,94 @@
+/* @media(max-width:1200px){
+    body{
+        background: teal;
+    }
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin :0 auto;
+    padding: 10px;
+}
+.card{
+    width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 10px;
+}
+.card-title{
+    padding: 10px;
+    font-weight: 600;
+}
+.card-body{
+    padding: 10px;
+}
+.bt{
+    border-top:3px solid purple ;
+}
+@media(max-width:900px){
+    body{
+        background: orange;
+    }
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 49%;
+    }
+}
+.btn{
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+}
+.btn a{
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: rgb(144, 142, 139);
+}
+@media(max-width:900px){
+    .container{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .btn{
+        flex-wrap: wrap;
+    }
+    .btn a{
+        margin-top:10px ;
+        width: 100%;
+    }
+}
+@media(max-width:760px){
+    body{
+        background: red;
+    }
+    .container{
+        width: 97%;
+    }
+    .card{
+        width: 100%;
+    }
+    .btn a{
+        margin-top:10px ;
+        width: 48%;
+    }
+    .btn{
+        display: block;
+    }
+}
+/* @media(max-width:450px){
+    body{
+        background: blue;
+    }
+} */ */
